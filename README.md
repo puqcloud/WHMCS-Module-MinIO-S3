@@ -41,7 +41,7 @@ Available options in the client panel:
 
 - - - - - -
 
->WHMCS: 8 +
+>WHMCS: 9 +
 
 >MinIO: RELEASE.2024-06-26T01-06-18Z +
 
