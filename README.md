@@ -1,28 +1,28 @@
-# WHMCS-Module-MinIO-S3
-The module allows the company to offer its customers the possibility of managing data storage compatible with S3 object storage using the MinIO S3 solution.
-
-## MinIO S3 module **[WHMCS](https://puqcloud.com/link.php?id=77)**
-
-#####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-minio-s3) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-MinIO-S3/) | [FAQ](https://faq.puqcloud.com/)
-
 # Description
 
-The module allows the company to offer its customers the possibility of managing data storage compatible with S3 object storage using the MinIO S3 solution.
+### MinIO S3 module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+#####  [Order now](https://puqcloud.com/whmcs-module-minio-s3.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-MinIO-S3/) | [FAQ](https://faq.puqcloud.com/)
 
->The module requires a fully configured MinIO server to work. The module does not assist in the creation of such a server in any way.
+## MinIO S3 WHMCS module
 
-Functions:
+The module allows the company to offer its customers the possibility of managing data storage compatible with S3 object storage using the MinIO S3 solution. The module requires a fully configured MinIO server to work. The module does not assist in the creation of such a server in any way.
 
-- Auto create and deploy product (User and S3 Buckets)
-- The module uses only the API to manage the accounts
-- Module supports multilingualism
-- The module shows the current and history of data usage by the user
-- The module notifies the user about exceeding the data limit
-- The module notifies the user about suspension due to data limit
-- Suspended when the disk limit is exceeded
-- Link to instructions for setting up the service in the client area.
+---
 
-Available options in the admin panel:
+## Main features
+
+- **Automatic account provisioning** — auto create and deploy product (User and S3 Buckets) upon order activation
+- **API-driven management** — the module uses only the API to manage the accounts on the MinIO server
+- **Account lifecycle management** — create, suspend, unsuspend, terminate, change password, and change package for MinIO S3 user accounts
+- **Disk usage monitoring** — track and display disk usage statistics with historical data and configurable retention period
+- **Email notifications** — automatic notifications when disk usage exceeds configurable thresholds
+- **Suspension on disk limit** — automatic suspension when the disk limit is exceeded, with policy switching to restricted mode
+- **Multi-language support** — 25 languages including Arabic, Azerbaijani, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Farsi, French, German, Hebrew, Hungarian, Italian, Macedonian, Norwegian, Polish, Romanian, Russian, Spanish, Swedish, Turkish, and Ukrainian
+- **Link to instructions** — configurable link for setting up the service in the client area
+- **Policy management** — configurable raw policies for standard and disk-limited access, with admin controls to force policy updates
+- **Default bucket creation** — optional automatic creation of a default bucket with configurable suffix
+
+### Admin Panel Options
 
 - Suspend users
 - Terminate users
@@ -31,25 +31,47 @@ Available options in the admin panel:
 - Change Package
 - API connection status
 - Disk status
+- Update Policy / Set Standard Policy / Set Limited Policy
 
-Available options in the client panel:
+### Client Panel Options
 
 - Change the MinIO user password
 - Disk status
 - Using disk space statistics
+- Bucket information
 
+---
 
-- - - - - -
+## System requirements
 
->WHMCS: 9 +
+| Requirement | Minimum |
+|-------------|---------|
+| WHMCS | 9.x or higher |
+| PHP | 8.2 or higher |
+| MinIO | RELEASE.2025-02-28T09-55-16Z or less |
+| ionCube Loader | v13 or newer (v14, v15) |
 
->MinIO: RELEASE.2024-06-26T01-06-18Z +
+---
 
-<img width="751" height="873" alt="image" src="https://github.com/user-attachments/assets/c8f979f8-cbcf-458b-9a3b-9380af1fed81" />
+## Links
 
-<img width="1021" height="621" alt="image" src="https://github.com/user-attachments/assets/3fe07095-668f-4d06-aa5f-0a736d1f8367" />
+- **Product page:** [https://puqcloud.com/whmcs-module-minio-s3.php](https://puqcloud.com/whmcs-module-minio-s3.php)
+- **Documentation:** [https://doc.puq.info/books/minio-s3-whmcs-module](https://doc.puq.info/books/minio-s3-whmcs-module)
+- **Support:** [https://puqcloud.com/submitticket.php](https://puqcloud.com/submitticket.php?step=2&deptid=1)
+- **Community:** [https://community.puqcloud.com/](https://community.puqcloud.com/)
 
-<img width="244" height="301" alt="image" src="https://github.com/user-attachments/assets/fbc5bc6f-a361-4bc8-9a56-8491f05e7f6a" />
+---
 
-<img width="1695" height="802" alt="image" src="https://github.com/user-attachments/assets/570c564a-5f54-4558-8664-f55cdbd1c31c" />
+## Screenshots
 
+### Client area — Home screen
+
+![Client area home screen](img/01-description-client-area.png)
+
+### Client area — Disk statistics
+
+![Disk statistics](img/02-description-disk-stats.png)
+
+### Admin area — Product information
+
+![Admin area product information](img/03-description-admin-area.png)
